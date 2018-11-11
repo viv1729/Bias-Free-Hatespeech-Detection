@@ -1,0 +1,23 @@
+
+Sexism.json
+-----------
+Annotation: 3430
+Sexism: 3491
+
+
+Racism.json
+-----------
+Annotation: 1976
+Racism: 1991
+
+
+Amateur_expert.json
+-------------------
+Annotations: 6909
+sexism:939 
+racism: 118 
+niether: 5850
+
+
+
+
