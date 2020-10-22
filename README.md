@@ -5,7 +5,11 @@
     - [Adversarial Training:](#adversarial-training)
     - [Preprocessing](#preprocessing)
     - [Categorization of Bias:](#categorization-of-bias)
+    - [Feature Space](#feature-space)
+    - [Network Architecture Approach 1](#network-architecture-approach-1)
+    - [Network Architecture Approach 2](#network-architecture-approach-2)
 
+<br>
 
 # Bias-Free-Hatespeech-Detection
 The aim of this project is to propose novel idea for bias-free hatespeech detection. Among multiple methods like: Transfer Learning, Adversarial Approaches for Gender-Free Hatespeech Detection, Bias-Free Deep Learning architecture for classification etc., we have implemented an 
@@ -30,10 +34,9 @@ Labelling of hate tweets :
 Analysing the content of the tweet - Depending on presence of certain words we are labelling a tweet as hate/non-hate.
 
 ### Categorization of Bias:
-Given tagged dataset had four labels - Sexist, Racist, Neither and Both. But since we are dealing with a binary classification problem, all racist tweets are labelled as 1, and the rest , labelled as 0
+Dataset used for this project contains $~24$k tweets with four labels - Sexist, Racist, Neither and Both. But since we are dealing with a binary classification problem, all racist tweets are labelled as 1, and the rest, labelled as 0. 
 
-`Feature Space`
-
+### Feature Space
 $F_y :{F_{y1}, F_{y2},......,F_{yk}}$ and $F_z : {F_{z1}, F_{z2},......,F_{zk}}$
 
 
@@ -44,6 +47,17 @@ There are two possibilities:
 
 - $F_y ∩ F_z ≠ ø$  
     This implies that there is an intersecting set of features between the discriminator and the adversary. Hence, removing the adversarial features might affect the performance of the discriminator network.
+
+<br>
+
+### Network Architecture Approach 1
+![alt text](img/NN1.png)
+
+
+<br>
+
+### Network Architecture Approach 2
+![alt text](img/NN2.png)
 
 
 
