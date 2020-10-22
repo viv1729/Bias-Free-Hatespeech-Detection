@@ -8,7 +8,7 @@ import numpy as np
 
 #dir_path = os.path.dirname(os.path.realpath(__file__))
 
-encoded_data_path = "encoded_data/"
+encoded_data_path = "dataset/"
 
 def get_data():
     tweets = []
@@ -34,7 +34,6 @@ def get_data_dataframe(data):
     return pd.DataFrame.from_dict(data)
 
 
-
 tweets = get_data()
 tweets_df = get_data_dataframe(tweets)
 
@@ -58,6 +57,7 @@ for t in tweets:
         females_c += 1
     else:
         not_found += 1
+        
 print(males_c, females_c, not_found) #714 535 11066
     
     
