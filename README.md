@@ -9,6 +9,10 @@
     - [Network Architecture Approach 1](#network-architecture-approach-1)
     - [Network Architecture Approach 2](#network-architecture-approach-2)
 
+<br> 
+
+>Please use an extension like [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) so that equations are rendered properly on README pages.
+
 <br>
 
 # Bias-Free-Hatespeech-Detection
