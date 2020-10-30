@@ -1,4 +1,6 @@
-- [Bias-Free-Hatespeech-Detection](#bias-free-hatespeech-detection)
+ <h1>Table of Contents<span class="tocSkip"></span></h1>
+ 
+  - [Bias-Free-Hatespeech-Detection](#bias-free-hatespeech-detection)
   - [Idea](#idea)
   - [Mathematical Representation](#mathematical-representation)
   - [Approach](#approach)
