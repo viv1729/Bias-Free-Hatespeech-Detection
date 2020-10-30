@@ -11,7 +11,7 @@
 
 <br> 
 
->Please use an extension like [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) so that equations are rendered properly on README pages.
+>**Please use an extension like [MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima) so that equations are rendered properly on README pages.**
 
 <br>
 
